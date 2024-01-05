@@ -15,12 +15,12 @@ const ThemeSelect = () => {
     return (
         <select className={`form-select form-select-sm ${bg}`} aria-label=".form-select-sm example" onChange={event => changeTheme(event.target.value)}
             defaultValue={bg}>
-            <option value="none"></option>
-            <option value="skyblue" className='skyblue'></option>
-            <option value="yellow" className='yellow' ></option>
-            <option value="pink" className='pink' ></option>
-            <option value="green" className='green' ></option>
-            <option value="red" className='red' ></option>
+            <option value="none">Default</option>
+            <option value="skyblue" className='skyblue'>Skyblue</option>
+            <option value="yellow" className='yellow'>Yellow</option>
+            <option value="pink" className='pink'>Pink</option>
+            <option value="green" className='green'>Green</option>
+            <option value="red" className='red'>Red</option>
         </select>
     )
 }
